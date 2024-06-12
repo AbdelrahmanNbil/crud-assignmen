@@ -1,0 +1,40 @@
+body{
+    background-color: #F7ECDE;
+    font-family: "PT Sans Caption", sans-serif;
+
+}
+
+
+h1{
+    border-bottom:dotted 2px black;
+    padding-bottom: 20px;
+    font-family: "Pacifico", cursive;
+    position: relative;
+}
+h1::after{
+    content: '';
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    width: 210px;
+    height: 25%;
+    background-color: #FEC260;
+    z-index: -1;
+    transition: all 0.5s;
+}
+
+h1:hover::after{
+    top:20% ;
+    height: 50%;
+}
+p{
+    font-size: 25px;
+    font-weight: 500;
+    background: linear-gradient(to right, green, yellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Righteous", sans-serif;
+
+  
+}
+
